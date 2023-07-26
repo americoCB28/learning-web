@@ -1,0 +1,43 @@
+body {
+	font-family: Tahoma;
+}
+
+p {
+	font-family: Segoe UI;
+}
+
+span {
+	font-weight: bold;
+}
+
+form {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	width: inherit;
+	height: 20px;
+	font-size: 14px;
+	font-weight: bold;
+	margin: inherit;
+	padding: inherit;
+}
+
+.reset-btn,
+.submit-btn {
+	margin: 2%;
+	border: 0px;
+	width: 45%;
+	height: 30px;
+	color: white;
+}
+
+.reset-btn {
+	background-color: #EE7474;
+}
+
+.submit-btn {
+	background-color: #62E0F7;
+}
