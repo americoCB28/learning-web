@@ -1,0 +1,35 @@
+body {
+	text-align: center;
+}
+
+.item {
+	background-color: lightgrey;
+	text-align: right;
+	border: 1px solid brown;
+	margin: 10px;
+}
+
+.itemName,
+.quantity,
+button {
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px;
+}
+
+.restar {
+	font-weight: bold;
+	background-color: lightcoral;
+}
+
+.sumar {
+	font-weight: bold;
+	background-color: lightskyblue;
+}
+
+h2,
+#checkout {
+	background-color: brown;
+	color: white;
+	padding: 10px;
+}
