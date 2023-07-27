@@ -1,0 +1,15 @@
+const budget = 2500;
+const savingPriority = "baja";
+const rent = 800;
+const utilities = 200;
+const newLaptop = 1800;
+const totalCosts = utilities + rent;
+const budgetLeft = budget - totalCosts;
+const buyLaptop = budgetLeft >= newLaptop;
+const capacity = totalCosts >= 2000;
+console.log("Nueva computadora portátil dentro del presupuesto: ");
+console.log(buyLaptop);
+console.log("Posponer la compra y guardar en su lugar: ");
+console.log(savingPriority === "alta");
+console.log("Capacidad supere al costo total");
+console.log(capacity);

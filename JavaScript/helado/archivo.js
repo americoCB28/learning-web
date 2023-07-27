@@ -1,0 +1,13 @@
+const price = 2.50;
+const campers = 15;
+console.log("Precio:  S/. " + price);
+console.log("Número de campistas: " + campers);
+const taxRate = 0.08;
+console.log("Tasa de impuestos: " + taxRate);
+const budget = 40;
+const total = price * campers * (1 + taxRate);
+console.log("Presupuesto total: S/. " + total);
+const totalExceedsBudget = total > budget;
+console.log("Presupuesto Total Excede? " + totalExceedsBudget);
+const taxApplied = total > (price * campers);
+console.log("Impuesto Aplicado? " + taxApplied);
